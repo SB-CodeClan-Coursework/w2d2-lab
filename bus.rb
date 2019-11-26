@@ -27,13 +27,5 @@ class Bus
   def empty_bus
     @passengers.clear
   end
-
-
-
-
-
-
-
-
-
+  
 end

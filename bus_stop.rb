@@ -16,7 +16,12 @@ class BusStopTest < MiniTest::Test
     assert_equal("Princes Street", @bus_stop.name)
   end
 
-  def test_
+  def test_queue
+    assert_equal()
+  end
+
+
+
 
 
 

@@ -45,8 +45,4 @@ class BusTest < MiniTest::Test
     assert_equal(0, @bus.number_passengers_on_bus)
   end
 
-
-
-
-
 end

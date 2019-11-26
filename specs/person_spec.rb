@@ -19,5 +19,4 @@ class PersonTest < MiniTest::Test
     assert_equal(99, @person1.age)
   end
 
-
 end
