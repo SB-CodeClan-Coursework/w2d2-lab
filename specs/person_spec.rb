@@ -7,15 +7,16 @@ require_relative('../person')
 class PersonTest < MiniTest::Test
 
   def setup()
-    @person = Person.new("John", 99)
+    @person1 = Person.new("John", 99)
+    @person2 = Person.new("Frank" 3)
   end
 
   def test_get_passenger_name
-    assert_equal("John", @person.name)
+    assert_equal("John", @person1.name)
   end
 
   def test_get_passenger_age
-    assert_equal(99, @person.age)
+    assert_equal(99, @person1.age)
   end
 
 
